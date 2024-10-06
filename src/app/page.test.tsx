@@ -2,9 +2,9 @@
  * @jest-environment jsdom
  */
 import { render, screen } from "@testing-library/react";
-import Page from "./page";
+import Home from "src/pages/home";
 
 it("App Router: Works with Server Components", () => {
-  render(<Page />);
+  render(<Home />);
   expect(screen.getByRole("heading")).toHaveTextContent("App Router");
 });

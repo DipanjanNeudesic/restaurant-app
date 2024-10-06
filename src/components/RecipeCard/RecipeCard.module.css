@@ -1,0 +1,41 @@
+/* RecipeCard.module.css */
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .link {
+    color: #0070f3;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }

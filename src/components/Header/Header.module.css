@@ -1,0 +1,23 @@
+/* Header.module.css */
+
+.header {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .link {
+    color: #0070f3;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
